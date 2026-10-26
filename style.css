@@ -1,0 +1,115 @@
+/* Nowtown のサポート・プライバシーポリシー・利用規約のページ（App Store に載せる URL） */
+:root {
+  --bg: #f6f4ef;
+  --card: #ffffff;
+  --text: #1d2230;
+  --dim: #5d6474;
+  --line: #e3e0d8;
+  --accent: #d9822b;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #14161d;
+    --card: #1d2029;
+    --text: #eceef3;
+    --dim: #a3a9b7;
+    --line: #2d313c;
+    --accent: #f0a050;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font: 16px/1.75 -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Noto Sans JP", "Segoe UI", sans-serif;
+  -webkit-text-size-adjust: 100%;
+}
+
+main {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 32px 16px 64px;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 24px;
+}
+
+.brand {
+  font-weight: 700;
+  font-size: 20px;
+  color: var(--text);
+  text-decoration: none;
+}
+
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px 14px;
+  font-size: 14px;
+}
+
+nav a,
+a {
+  color: var(--accent);
+}
+
+h1 {
+  font-size: 26px;
+  line-height: 1.35;
+  margin: 0 0 4px;
+}
+
+h2 {
+  font-size: 19px;
+  margin: 32px 0 8px;
+}
+
+h3 {
+  font-size: 16px;
+  margin: 20px 0 4px;
+}
+
+.updated {
+  color: var(--dim);
+  font-size: 14px;
+  margin: 0 0 24px;
+}
+
+section.lang {
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  padding: 8px 20px 20px;
+  margin-bottom: 24px;
+}
+
+ul {
+  padding-left: 1.3em;
+}
+
+li + li {
+  margin-top: 4px;
+}
+
+.lang-switch {
+  font-size: 14px;
+  color: var(--dim);
+}
+
+footer {
+  color: var(--dim);
+  font-size: 13px;
+  text-align: center;
+  margin-top: 40px;
+}
