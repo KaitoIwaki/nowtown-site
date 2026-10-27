@@ -86,11 +86,11 @@ a {
 
 .brand::before {
   content: "";
-  width: 18px;
-  height: 18px;
-  border-radius: 5px;
-  background: linear-gradient(180deg, var(--crane), #ff9a3a);
-  box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.25);
+  width: 28px;
+  height: 28px;
+  border-radius: 7px;
+  background: url(icon-180.png) center / cover;
+  box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.3);
 }
 
 nav {
